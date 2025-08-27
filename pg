@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PGPC Chronicle</title>
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1b2a;
+    color: #ffffff;
+    line-height: 1.6;
+    }
+
+    header {
+    background-color: #1b263b;
+    padding: 20px;
+    text-align: center;
+    }
+
+    header h1 {
+    font-size: 28px;
+    color: #ffffff;
+    }
+
+    header p {
+    color: #c0c0c0;
+    font-size: 14px;
+    }
+
+    nav {
+    display: flex;
+    justify-content: center;
+    background-color: #243b55;
+    padding: 10px;
+    gap: 20px;
+    }
+
+    nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+    .container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    }
+
+    .main-content {
+    flex: 3;
+    background-color: #1e2a3a;
+    padding: 20px;
+    border-radius: 8px;
+    }
+
+    .main-content img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    }
+
+    .main-content h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+    }
+
+    .main-content p {
+    margin-bottom: 15px;
+    color: #d0d0d0;
+    }
+
+    .main-content .button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #3c91e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    }
+
+    .cards {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    }
+
+    .card {
+    background-color: #324a5f;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 250px;
+    }
+
+    .card h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+    }
+
+    .card p {
+    font-size: 14px;
+    color: #cfcfcf;
+    }
+
+    .sidebar {
+    flex: 1;
+    background-color: #162534;
+    padding: 20px;
+    border-radius: 8px;
+    }
+
+    .sidebar h3 {
+    margin-bottom: 10px;
+    }
+
+    .sidebar a {
+    display: block;
+    color: #8ab4f8;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    }
+
+    footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1b263b;
+    font-size: 13px;
+    color: #bbbbbb;
+    }
+
+</style>
+</head>
+<body>
+
+<header>
+    <h1>PGPC Chronicle</h1>
+    <p>An official communication channel of PGPC</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">News</a>
+    <a href="#">Events</a>
+    <a href="#">Departments</a>
+    <a href="#">About</a>
+</nav>
+
+<div class="container">
+    <div class="main-content">
+    <h2>Orientation Schedule Released</h2>
+    <img src="https://via.placeholder.com/800x300" alt="Orientation Image">
+    <p>Welcome activities kick off at the main auditorium.</p>
+    <p>The Padre Garcia Polytechnic College shall primarily provide advanced education, higher technological, and professional instruction and training in the areas of sciences, arts, education, business, engineering, computing, health, governance, criminal justice, social services, and other related courses. It shall also undertake research, extension, administrative and production services, and provide progressive leadership in its areas of specialiation.</p>
+    <a class="button" href="#">View program</a>
+
+    <h2>PGPC Vision, Mission, and Core Values</h2>
+    <div class="cards">
+        <div class="card">
+        <h3>The Vision</h3>
+        <p>PGPC is a premier higher learning institution producing globally competitive and excellent professionals and leaders instrumental to community development and nation building.</p>
+        <a class="button" href="#">Read more</a>
+        </div>
+        <div class="card">
+        <h3>The Mission</h3>
+        <p>As a higher learning institution, PGPC is committed to producing globally competent professionals and leaders with industry-based knowledge, skills and values that will enable them achieve their professional growth and total human development.</p>
+        <a class="button" href="#">Read more</a>
+        </div>
+        <div class="card">
+        <h3>Core Values</h3>
+        <p>P – Professional Development<br>G – God-centered Community<br>P – Progressive Community<br>C – Commitment to Excellence</p>
+        <a class="button" href="#">Read more</a>
+        </div>
+    </div>
+    </div>
+    <aside class="sidebar">
+      <h3>Resources</h3>
+      <a href="#">Canvas</a>
+      <a href="#">Data</a>
+      <a href="#">Accessibility</a>
+      <a href="#">Contact</a>
+      <a href="#">Student Handbook</a>
+      </aside>
+  </div>
+  
+  <footer>
+      &copy; 2025 Campus Chronicle · Brgy. Castillo, Padre Garcia, Batangas
+  </footer>
+  
+  </body>
+  </html>
